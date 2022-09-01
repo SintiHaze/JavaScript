@@ -1,0 +1,11 @@
+// Body Mass Index (BMI) Calculator
+const wendyMass = 92
+const wendyHeight = 1.95
+const markMass = 78
+const markHeight = 1.69
+
+const BMIMark = markMass / markHeight ** 2;
+const BMIWendy = wendyMass / wendyHeight ** 2;
+const markHigherBMI = BMIMark > BMIJohn
+
+console.log(BMIMark, BMIWendy, markHigherBMI);
